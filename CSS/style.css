@@ -1,0 +1,79 @@
+#static {
+    position: static;   /*this is a default bs css?*/
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    /* left: 100px; */
+}
+#relative {
+    position: relative;
+    border: 3px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    left: 100px;
+    top: 20px;
+}
+#fixed {
+    position: fixed;
+    border:  6px dotted pink;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    right: 200px;
+    top: 200px;
+}
+#prind {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 4px solid purple;
+    top: 100px;    
+}
+#djali {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: none;
+    color: white;
+    left: 50px;
+    top: 50px;
+}
+#djali img {
+    width: 150px;
+    height: 150px;
+}
+#sticky {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+    color: black;
+    padding: 20px;
+    top: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred;
+    overflow: hidden;
+}
+li {
+    float: left;
+
+    
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+li a:hover:not(.active) {
+    background-color: blueviolet;
+}
+.active {
+    background-color: aquamarine;
+}
